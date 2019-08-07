@@ -50,7 +50,7 @@
         {
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2018-05-01",
-            "name": "storageDeployment",
+            "name": "subnetDeployment",
             "resourceGroup": "[parameters('virtualNetworkResourceGroupName')]",
             "dependsOn": [
                 "[resourceId('Microsoft.Resources/resourceGroups/', parameters('virtualNetworkResourceGroupName'))]"
